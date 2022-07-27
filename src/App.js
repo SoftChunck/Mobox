@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import {Footer,Games,Metafund,Milstones,MomoboxChain,MomoboxDag,Momoverse,Navbar,News,Vision} from './Containers';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <div className='header'></div>
+      <Milstones></Milstones>
+      <Vision></Vision>
+      <Momoverse></Momoverse>      
+      <MomoboxDag></MomoboxDag>
+      <MomoboxChain></MomoboxChain>
+      <Metafund></Metafund>
+      <Games></Games>
+      <News></News>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+export { default as Footer } from './Footer/Footer';
+export {default as Games} from './Games/Games';
+export {default as Metafund} from './Metafund/Metafund';
+export {default as Milstones} from './Milstones/Milestones';
+export {default as MomoboxChain} from './MomoboxChain/MomoboxChain';
+export {default as MomoboxDag} from './MomoboxDag/MomoboxDag';
+export {default as Navbar} from './Navbar/Navbar';
+export {default as Momoverse} from './Momoverse/Momoverse';
+export {default as News} from './News/News';
+export {default as Vision} from './Vision/Vision';

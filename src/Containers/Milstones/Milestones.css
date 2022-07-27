@@ -1,0 +1,14 @@
+.Milestones{
+    background-image: url('../../../public/Assets/images/milestone1.939c8a91.png');
+    background-repeat: none;
+    background-size: cover;
+    animation: milestone-bg 6s infinite linear;
+}
+@keyframes milestone-bg{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+    }
+}
