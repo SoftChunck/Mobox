@@ -1,0 +1,74 @@
+.Moboxdag{
+    background-image: url('../../../public/Assets/images/bg1.fd5166ca.png');
+}
+.menu-item-btn{
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+.menu-item-btn:hover{
+    color: black;
+}
+.menu-item-anim{    
+    width: 0px;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;  
+    transition: width 1s;
+}
+
+.slider-dag{
+    width: 0px;
+    height: 0px;
+}
+.img-dag{
+    position: relative;
+    background-size: cover;
+}
+.paint0-clone{    
+    background-image: url('../../../public/Assets/images/paint0.png');
+}
+.paint1-clone{    
+    background-image: url('../../../public/Assets/images/paint1.png');
+}
+.paint2-clone{    
+    background-image: url('../../../public/Assets/images/paint2.png');
+}
+.paint0{    
+    background-image: url('../../../public/Assets/images/paint0C.png');
+}
+.paint1{    
+    background-image: url('../../../public/Assets/images/paint1C.png');
+}
+.paint2{    
+    background-image: url('../../../public/Assets/images/paint2C.png');
+}
+.img-dag-clone{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;       
+    -webkit-mask-image: url('../../../public/Assets/images/mask-dag.png');
+    mask-image: url('../../../public/Assets/images/mask-dag.png');
+    -webkit-mask-size: 4900% 100%;
+    mask-size: 4900% 100%;
+}
+.img-dag-animate{    
+    animation: inMask 1.5s forwards;
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+    -webkit-animation-timing-function: steps(48);
+    animation-timing-function: steps(48);
+}
+@keyframes inMask {
+    0% {
+        -webkit-mask-position: 0 50%;
+        mask-position: 0 50%;
+    }
+    100% {
+        -webkit-mask-position: 100% 50%;
+        mask-position: 100% 50%;
+    }
+}
+.img-dag-v{
+    visibility:hidden;
+}

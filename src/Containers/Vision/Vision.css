@@ -4,3 +4,8 @@
 .vision-img{
     height: 35rem;
 }
+@media screen and (min-width:320px){
+    .vision-img{
+        height: 60rem;
+    }
+}
